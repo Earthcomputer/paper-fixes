@@ -1,0 +1,35 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "net.earthcomputer",
+		"id": "paper_fixes",
+		"version": "${version}",
+		"metadata": {
+			"name": "Paper Fixes",
+			"description": "Fixes from PaperMC ported to Quilt",
+			"contributors": {
+				"Earthcomputer": "Owner"
+			},
+			"contact": {
+				"homepage": "https://earthcomputer.net/",
+				"issues": "https://github.com/Earthcomputer/paper-fixes/issues",
+				"sources": "https://github.com/Earthcomputer/paper-fixes"
+			},
+			"icon": "assets/paper_fixes/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": "1.19.2"
+			}
+		]
+	},
+	"mixin": "paper-fixes.mixins.json"
+}
