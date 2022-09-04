@@ -11,7 +11,7 @@ trim_trailing_whitespace = true
 indent_style = tab
 
 [*.java]
-indent_style = tab
+indent_style = space
 
 [*.json]
 indent_style = space

@@ -12,3 +12,7 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+include 'annotationProcessor'
+include 'root'
+include 'mixinHelper'

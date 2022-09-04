@@ -1,0 +1,6 @@
+
+repositories.addAll project(':root').repositories
+
+dependencies {
+	implementation project(':mixinHelper')
+}

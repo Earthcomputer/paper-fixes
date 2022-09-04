@@ -19,6 +19,9 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
+			"mm:early_risers": [
+				"net.earthcomputer.paperfixes.impl.PaperFixesInit"
+			]
 		},
 		"depends": [
 			{
@@ -31,5 +34,5 @@
 			}
 		]
 	},
-	"mixin": "paper-fixes.mixins.json"
+	"mixin": "paper_fixes.mixins.json"
 }
